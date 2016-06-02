@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: LEDlW6pUrlLJEUeG1XKTMhbVVMZW2niO32lLur1Q90Pm++jeCY9IOkXuCY7QdcVg90pb5U0znDjq1dZRcH1WYEaVxsVfDZ+o1jAIAvHO/TkxMPsqOk7du7Jk59ql5/jEfPaTr0VzoWiISLuc4lqG3ZbYZ+2AJNCzFucSWLDkwcnotemMjLu+R1OJ6UfX9hSwV6Zsex8nizdVqnpMNqqd9CQhJ7/2rooBfERzfA9l6OayQ17BZKZ5LQZqJd1IaoW9Gt7ALJroL3wqEG7dSvvBREYP30LN8nAqupocfDfM12J0K7olT/ojHC7AEpNabXADlBpb5NNSGyGaPfa4/3PWNdeh/n+20/qb06QjMiQnci+cBVqGFLyVk+69LGTvYK2of7qo4ZgYqHoCLAxsabsWfP4UHWKxzK68HT77S7LrE9CxrXHYN8flIOPoEbfKt4CAG8BuDc1p8l1DHNqqYSrdDr5oGwVSVv0Z5oQAoZz2DnIvBYpSoj7kXC0cAeXj4ehH/R030/kn5pgdmdU18q2Irqg8UxfBco+o/56jOplnRo9u1RhMfaHa/Z99noh3a8yZUO50rUUyabzKYBHCsM/lsB2JkedyILZpJ3gUcLfar9roptEXfOTgN3hwJzenu7UU48gtJTU3Xrc1bPRCBFkW9ES/ScRI3pyoHrlD6XiJSto=
+  app: thawing-refuge-88556
+  on:
+    repo: Spencer814/shopping-list_node
